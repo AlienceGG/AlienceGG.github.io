@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[AlienceGG's Blog]]></title>
+  <subtitle><![CDATA[--I wish I could do more.]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://aliencegg.github.io/"/>
+  <updated>2015-07-09T04:54:25.632Z</updated>
+  <id>http://aliencegg.github.io/</id>
+  
+  <author>
+    <name><![CDATA[AlienceGG]]></name>
+    <email><![CDATA[AlienceGG@foxmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[web-intern-2015]]></title>
+    <link href="http://aliencegg.github.io/2015/07/09/web-intern-2015/"/>
+    <id>http://aliencegg.github.io/2015/07/09/web-intern-2015/</id>
+    <published>2015-07-09T01:42:46.000Z</published>
+    <updated>2015-07-09T04:20:35.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="前端实习说明">前端实习说明</h2>
+<h3 id="技术要求：">技术要求：</h3>
+<ul>
+<li><strong>J1</strong>.<code>w3school</code>的文档过三遍（参考F2）</li>
+<li><strong>J2</strong>.至少熟练掌握一款编辑器notepad、ue、editplus、sublime、vim等（我自己用的是sublimetext2）</li>
+<li><strong>J3</strong>.会看懂前辈们也就是<a href="http://github.com/" target="_blank" rel="external">Github</a>上写的代码（老板一般不会让你马上开工、会让你写写他们之前做过的项目、你做的时候就可以把前辈git的代码拿过来看看啦，这也是为了以后团队合作着想）</li>
+<li><strong>J4</strong>.给你网页上的一般js或者css特效（轮播啊、指针停留特效啊），你要知道这些特效的大致算法，并能实现。</li>
+<li><strong>J5</strong>.框架要懂一些常用的<code>jquery</code>、<code>bootstrap</code>、这个一般是在做了两个星期之后会让你看的。</li>
+<li><strong>J6</strong>.关于兼容性方面也是个大课题。首先要测试各个浏览器，懂得怎么去hack，一般兼容性会出现在<code>css</code>方面。可以百度css hack。就知道怎么在各个浏览器下解决布局错位等一些。对于ie浏览器来说、一般要兼容到IE6。</li>
+<li><strong>J7</strong>.<code>javascript</code>方面先搜能看的懂一些常见特效的代码。先学着套用、但要自己码代码、千万不要复制粘贴，套着套着就知道一些套路了。然后对一些常见的特效，就可以自己码代码啦。但在课余还是要自己学学那些先进的特效的实现。</li>
+</ul>
+<h3 id="态度要求：">态度要求：</h3>
+<ul>
+<li><strong>T1</strong>.代码风格要良好，html标签缩进，css类名。（别用拼音代替，英文也要有点基础。要写<code>注释</code>，不然别人看的实在心累）</li>
+<li><strong>T2</strong>.工作态度认真（这没什么要说了的吧），虚心请教。</li>
+</ul>
+<h3 id="具体任务">具体任务</h3>
+<hr>
+<p>完成3-5个h5页面。</p>
+<hr>
+<p>要求：</p>
+<ol>
+<li>以<strong>新闻整合网站</strong>为主题进行设计。（所需PSD可参考F1）</li>
+</ol>
+<ul>
+<li>两个人的设计可使用不同的psd，但请都按照<strong>新闻整合网站</strong>的原型进行详细设计。</li>
+</ul>
+<ol>
+<li>页面之间有<strong>逻辑</strong>跳转。</li>
+<li>带有1-2个特效。（参照J4）</li>
+<li>请留出和后台数据库Mysql进行数据对接的接口。</li>
+</ol>
+<h3 id="附录">附录</h3>
+<ul>
+<li><strong>F1.</strong><a href="http://www.yuanxingku.com/article-399-1.html" target="_blank" rel="external">http://www.yuanxingku.com/article-399-1.html</a></li>
+<li><strong>F2.</strong><a href="http://www.w3school.com.cn/" target="_blank" rel="external">http://www.w3school.com.cn/</a></li>
+<li><strong>F3.</strong> 可能用到的PSD示例：<br><img src="/img/hp.jpg" alt=""><br><img src="/img/single-page-portfolio-psd.jpg" alt=""></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="前端实习说明">前端实习说明</h2>
+<h3 id="技术要求：">技术要求：</h3>
+<ul>
+<li><strong>J1</strong>.<code>w3school</code>的文档过三遍（参考F2）</li>
+<li><strong>J2</st]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[server-intern-2015]]></title>
+    <link href="http://aliencegg.github.io/2015/07/08/server-intern-2015/"/>
+    <id>http://aliencegg.github.io/2015/07/08/server-intern-2015/</id>
+    <published>2015-07-08T04:28:28.000Z</published>
+    <updated>2015-07-09T04:54:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="后端实习说明">后端实习说明</h2>
+<h3 id="技术要求：">技术要求：</h3>
+<ul>
+<li>学习python。</li>
+<li>了解爬虫架构。</li>
+<li>完成F2中的练习。</li>
+</ul>
+<h3 id="具体任务">具体任务</h3>
+<hr>
+<ol>
+<li>封装之前爬虫方案的API。</li>
+<li>根据官方接口完成NYtimes的爬虫方案。（参考F3）</li>
+</ol>
+<hr>
+<p>要求：</p>
+<ol>
+<li>学会熟练使用<a href="https://github.com/" target="_blank" rel="external">Github</a>。</li>
+<li>学会使用简单的Linux命令行。</li>
+<li>爬虫方案具有7*24h工作能力。</li>
+<li>封装改进后方案的API。</li>
+</ol>
+<h3 id="附录">附录</h3>
+<ul>
+<li><strong>F1.</strong> <a href="http://www.zhihu.com/question/20702054" target="_blank" rel="external">http://www.zhihu.com/question/20702054</a> 上面的资料不是都推荐，可以稍微筛选一下。</li>
+<li><strong>F2.</strong> <a href="https://github.com/AlienceGG/show-me-the-code" target="_blank" rel="external">https://github.com/AlienceGG/show-me-the-code</a></li>
+<li><strong>F3.</strong> NYtimes的官方API，需要翻墙访问。<a href="http://developer.nytimes.com/docs/read/article_search_api_v2" target="_blank" rel="external">http://developer.nytimes.com/docs/read/article_search_api_v2</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="后端实习说明">后端实习说明</h2>
+<h3 id="技术要求：">技术要求：</h3>
+<ul>
+<li>学习python。</li>
+<li>了解爬虫架构。</li>
+<li>完成F2中的练习。</li>
+</ul>
+<h3 id="具体任务">具体任务</]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[startgoagent]]></title>
+    <link href="http://aliencegg.github.io/2015/03/25/startgoagent/"/>
+    <id>http://aliencegg.github.io/2015/03/25/startgoagent/</id>
+    <published>2015-03-25T01:42:46.000Z</published>
+    <updated>2015-03-27T08:02:33.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="【CentOS】goagent后台开机启动">【CentOS】goagent后台开机启动</h2>
+<h3 id="问题描述：">问题描述：</h3>
+<ul>
+<li>goagent后台开机启动</li>
+</ul>
+<h3 id="问题解决：">问题解决：</h3>
+<ul>
+<li>在 /etc/rc.d/rc.local文件中添加goagent开机启动命令：<br><img src="/img/startgoagent1.jpg" alt="start"><h3 id="参数含义详解：">参数含义详解：</h3>
+</li>
+<li>nohup是让一个进程在后台运行的命令，因为Goagent产生大量输出，我们将这些输出重定向到一个并不存在的空设备。</li>
+</ul>
+<ol>
+<li><strong>&gt;/dev/null</strong><br>大家知 “&gt;”（右尖括号） 在unix/linux shell 中表示 输入到 的意思，就是把”&gt;”左边的内容输入到”&gt;”右边。<br>比如：echo text&gt;1.txt 就把“text”这个文本输入到1.txt这个文件中。<br>那么 “/dev/null” 又是个什么东东呢？它代表一个空设备，即不存在的设备。也就是说，抛弃”&gt;”左边的内容，不进行输出。</li>
+<li><strong>2&gt;&amp;1</strong><br>这个其实是三个部分组成的：2， &gt;&amp;， 1 。我们先来搞清楚这里的2和1是什么意思。在/usr/include/unistd.h中，你可以找到如下代码。</li>
+</ol>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor">#<span class="keyword">define</span> STDIN_FILENO    0   </span></div><div class="line"><span class="preprocessor">#<span class="keyword">define</span> STDOUT_FILENO   1   </span></div><div class="line"><span class="preprocessor">#<span class="keyword">define</span> STDERR_FILENO   2</span></div></pre></td></tr></table></figure>
+
+<p>这是三种不同的流。</p>
+<ul>
+<li>2代表stderr.</li>
+<li>1代表sdtout.</li>
+</ul>
+<p>而 &amp;&gt; 则表示把符号左边的内容以符号右边的形式输出。</p>
+<p>2&amp;&gt;1 就是把，把stderr做为stdout输出。</p>
+<p>现在我们结合这两个部分来看。2&amp;&gt;1定义了把stderr做为标准的stdout流输出，然后stdout的内容全部写入/dev/null，也就是说被舍弃掉。</p>
+<p>结论就是，无论执行的是什么命令，哪怕运行中出现了error都不会有回显。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="【CentOS】goagent后台开机启动">【CentOS】goagent后台开机启动</h2>
+<h3 id="问题描述：">问题描述：</h3>
+<ul>
+<li>goagent后台开机启动</li>
+</ul>
+<h3 id="问题解决：">问题解决：</]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[bupt vpn]]></title>
+    <link href="http://aliencegg.github.io/2015/03/13/bupt-vpn/"/>
+    <id>http://aliencegg.github.io/2015/03/13/bupt-vpn/</id>
+    <published>2015-03-13T07:14:04.000Z</published>
+    <updated>2015-03-13T07:33:26.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="校园VPN">校园VPN</h1>
+<ol>
+<li>安装下载的软件“QuidwaySVNClient.exe“<ul>
+<li><a href="http://lib.bupt.edu.cn/a/fuwu/shangwangfuwu/SVNClient_V200R001C01SPC526T.zip" target="_blank" rel="external">WIN8版校园网VPN客户端</a></li>
+<li><a href="http://lib.bupt.edu.cn/a/fuwu/shangwangfuwu/QuidwaySVNClient.rar" target="_blank" rel="external">除WIN8外校园网VPN客户端</a></li>
+</ul>
+</li>
+<li>选择<code>新接入节点2</code>对应地址是<code>sslvpn.bupt.edu.cn</code>的那个，输入用户名和密码登录即可。<br>-<img src="/img/buptvpn1.png" alt="buptvpn1"><br>*注意该用户名密码在同一时间段内只允许登录两次，超过两次会导致登录失败，需要从其它登录地点退出后才能正常登录校园网VPN系统。</li>
+<li>附：<a href="http://lib.bupt.edu.cn/" target="_blank" rel="external">北邮图书馆</a></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="校园VPN">校园VPN</h1>
+<ol>
+<li>安装下载的软件“QuidwaySVNClient.exe“<ul>
+<li><a href="http://lib.bupt.edu.cn/a/fuwu/shangwangfuwu/SVNClient_V200]]>
+    </summary>
+    
+      <category term="vpn" scheme="http://aliencegg.github.io/tags/vpn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[goagent]]></title>
+    <link href="http://aliencegg.github.io/2015/02/03/goagent/"/>
+    <id>http://aliencegg.github.io/2015/02/03/goagent/</id>
+    <published>2015-02-03T05:10:03.000Z</published>
+    <updated>2015-02-03T10:25:18.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="翻墙的用途？">翻墙的用途？</h2>
+<ul>
+<li><strong>A:</strong>略（这个还用说吗）</li>
+</ul>
+<h2 id="为什么要翻墙？">为什么要翻墙？</h2>
+<ul>
+<li><strong>A:</strong><a href="http://www.baidu.com/s?rsv_bp=0&amp;rsv_spt=3&amp;ie=utf-8&amp;rsv_sug3=30&amp;rsv_sug4=170&amp;rsv_sug1=29&amp;rsv_sug2=0&amp;inputT=14&amp;wd=GFW&amp;tn=32053019_2_pg&amp;ch=1" target="_blank" rel="external">GFW</a></li>
+</ul>
+<h2 id="翻墙的方法？">翻墙的方法？</h2>
+<ul>
+<li>VPN</li>
+<li>goagent</li>
+<li>改host文件</li>
+<li><p>国内某些浏览器会特地推出翻墙的功能，比如某度。</p>
+<p>这个问题，lz也不知道试过多少种了，但是最稳定，速度比较快的就是goagent了，我用了大概有。。2年？3年？也是从参加美赛开始（当然也不是天天用啊，那样应该水表就该被查坏了）</p>
+</li>
+</ul>
+<h2 id="goagent使用注意事项">goagent使用注意事项</h2>
+<ol>
+<li>给大家配好的appid是<strong>appidforbupter</strong>，确实google是有限流量的，但是我用到现在都没有出现超过流量的时候。也许这一次不一样，这么多人一起用。</li>
+<li>那如果超过了怎么办？<br>A：自己去<a href="http://appengine.google.com" target="_blank" rel="external">http://appengine.google.com</a>申请一个吧，自己用是肯定不会超的。</li>
+<li>申请完了，打开server文件夹下的uploader.bat文件，上传刚刚申请的appid，(请在学校内网环境下打开)最后再改local文件夹下的proxy.ini文件里的appid，改完后保存重启goagent就可以了，就这么简单。</li>
+</ol>
+<h2 id="goagent怎么用">goagent怎么用</h2>
+<ol>
+<li>打开<code>local</code>下的<code>goagent.exe</code>，最小化不要关掉它。</li>
+<li>浏览器端设置<br><strong>2.1如果你使用的是Chrome:</strong><br> 2.1.1  Chrome请安装<code>SwitchySharp</code>插件；<br> 2.1.2 导入SwitchySharp配置，下载地址<a href="http://goagent.googlecode.com/files/SwitchyOptions.bak" target="_blank" rel="external">http://goagent.googlecode.com/files/SwitchyOptions.bak</a> (请用Chrome打开)进入<code>SwitchySharp</code>设置界面，点击“导入/导出”-“从文件恢复”，导入刚才下载的SwitchyOptions.bak<br> <strong>这里插播一条温馨提示  关于bak文件下载不了的问题</strong><ul>
+<li>是这样，bak是一个备份文件，关于switchysharp的设置备份，你先在local文件夹里找到一个SwitchySharp.crx文件，拖到chrome里，安装那个扩展，然后在SwitchySharp里导入local文件夹下面的SwitchyOptions.bak应该就可以了。<br>因为网址被墙掉了所以你们打不开。<br><img src="/img/switchysharp.jpg" alt="switchysharp"><br>2.1.3 使用Chrome浏览Twitter、Facebook，YouTube等网站时，记得切换到<code>GoAgent</code><br><img src="/img/chrome-goagent.jpg" alt="Chrome goagent"><br><strong>2.2 如果你使用的是Firefox:</strong><br>2.2.1 安装火狐附加组件<code>AutoProxy</code>；安装完毕后重启Firefox，提示规则列表，记得选中确定；<br><img src="/img/gfwlist.jpg" alt="gfwlist"><br>2.2.2 FireFox-&gt;选项-&gt;高级-&gt;加密-&gt;查看证书-&gt;证书机构-&gt;导入证书, 选择<code>local\ca.crt</code>, 勾选所有项，导入。<br><img src="/img/certificate.jpg" alt="certificate"><br>2.2.3 添加代理设置，点击<code>AutoProxy</code>图标旁边的三角按钮，在下拉菜单中选择<code>preferences</code>或者使用快捷键Ctrl+Alt+P进入附加组件首选项设置，然后点击<code>Proxy Server</code>，选择<code>Edit Proxy Server</code>，添加代理地址，如下图：<br><img src="/img/Edit-Proxy-Server.jpg" alt="Edit Proxy Server"><br>2.2.4 修改默认代理，同样是<code>preferences</code>界面点击Proxy Server，选择Choose Proxy Server，将默认的Proxy改成刚才添加的；<br><img src="/img/choose-proxy-server.jpg" alt="choose proxy server"><br>2.2.5 使用<code>AutoProxy</code>会自动根据已定规则决定是否使用Proxy的。<br><strong>2.3 如果既没有Chrome又没有FireFox的:</strong><ul>
+<li>快去下一个。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="翻墙的用途？">翻墙的用途？</h2>
+<ul>
+<li><strong>A:</strong>略（这个还用说吗）</li>
+</ul>
+<h2 id="为什么要翻墙？">为什么要翻墙？</h2>
+<ul>
+<li><strong>A:</strong><a hr]]>
+    </summary>
+    
+      <category term="t翻墙" scheme="http://aliencegg.github.io/tags/t%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="c翻墙" scheme="http://aliencegg.github.io/categories/c%E7%BF%BB%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[linux(2)-mysql-phpmyadmin]]></title>
+    <link href="http://aliencegg.github.io/2014/12/29/linux-mysql-phpmyadmin/"/>
+    <id>http://aliencegg.github.io/2014/12/29/linux-mysql-phpmyadmin/</id>
+    <published>2014-12-29T06:24:45.000Z</published>
+    <updated>2014-12-29T09:00:14.000Z</updated>
+    <content type="html"><![CDATA[<p>坦率的说，这要看你是如何安装的啦！<br>1.rpm包形式（包括yum安装）可以<br>rpm -aq|grep http                         #查看是否安装了apache的包<br>rpm -qi   输入上一步获取的包名         #了解一下这个apache包的信息<br>rpm -ql   输入包名                           #此apache包中所有文件安装的位置</p>
+<p>2，tarball等安装<br>whereis  httpd                               #http文件的位置</p>
+<p>sudo vim /usr/share/phpmyadmin/config.inc.php<br>sudo vim /usr/share/phpmyadmin/libraries/config.default.php<br>sudo vim /etc/httpd/conf.d/phpmyadmin.conf</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>坦率的说，这要看你是如何安装的啦！<br>1.rpm包形式（包括yum安装）可以<br>rpm -aq|grep http                         #查看是否安装了apache的包<br>rpm -qi   输入上一步获取的包名         #了]]>
+    </summary>
+    
+      <category term="linux" scheme="http://aliencegg.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[linux(2)-mysql]]></title>
+    <link href="http://aliencegg.github.io/2014/12/24/mysql/"/>
+    <id>http://aliencegg.github.io/2014/12/24/mysql/</id>
+    <published>2014-12-24T09:11:40.000Z</published>
+    <updated>2014-12-24T09:22:13.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="一、mysql简介">一、mysql简介</h3>
+<p>说到数据库，我们大多想到的是关系型数据库，比如mysql、oracle、sqlserver等等，这些数据库软件在windows上安装都非常的方便，在Linux上如果要安装数据库，咱不得不首先推荐的是mysql数据库了，而且Mysql数据库的第一个版本就是发行在Linux系统上的。</p>
+<p>MySQL是一个关系型数据库管理系统，由瑞典MySQL AB公司开发，目前属于Oracle公司。MySQL是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。MySQL的SQL语言是用于访问数据库的最常用标准化语言。MySQL软件采用了双授权政策（本词条“授权政策”），它分为社区版和商业版，由于其体积小、速度快、总体拥有成本低，尤其是开放源码这一特点，一般中小型网站的开发都选择MySQL作为网站数据库。由于其社区版的性能卓越，搭配PHP和Apache可组成良好的开发环境。</p>
+<p>在Linux上安装mysql数据库，我们可以去其官网上下载mysql数据库的rpm包，(<a href="http://dev.mysql.com/downloads/mysql/5.6.html#downloads)[http://dev.mysql.com/downloads/mysql/5.6.html#downloads" target="_blank" rel="external">http://dev.mysql.com/downloads/mysql/5.6.html#downloads)[http://dev.mysql.com/downloads/mysql/5.6.html#downloads</a>]<br>大家可以根据自己的操作系统去下载对应的数据库文件，目前最新的版本是5.6.10了。</p>
+<p>在这里我是通过yum来进行mysql数据库的安装的，通过这种方式进行安装，可以将跟mysql相关的一些服务、jar包都给我们安装好，所以省去了很多不必要的麻烦！！！</p>
+<h3 id="二、卸载掉原有mysql">二、卸载掉原有mysql</h3>
+<p>因为mysql数据库在Linux上实在是太流行了，所以目前下载的主流Linux系统版本基本上都集成了mysql数据库在里面，我们可以通过如下命令来查看我们的操作系统上是否已经安装了mysql数据库</p>
+<p>[root@xiaoluo ~]# rpm -qa | grep mysql　　// 这个命令就会查看该操作系统上是否已经安装了mysql数据库<br>有的话，我们就通过 rpm -e 命令 或者 rpm -e —nodeps 命令来卸载掉</p>
+<p>[root@xiaoluo ~]# rpm -e mysql　　// 普通删除模式<br>[root@xiaoluo ~]# rpm -e —nodeps mysql　　// 强力删除模式，如果使用上面命令删除时，提示有依赖的其它文件，则用该命令可以对其进行强力删除<br>在删除完以后我们可以通过 rpm -qa | grep mysql 命令来查看mysql是否已经卸载成功！！</p>
+<h3 id="三、通过yum来进行mysql的安装">三、通过yum来进行mysql的安装</h3>
+<p>我是通过yum的方式来进行mysql的数据库安装，首先我们可以输入 yum list | grep mysql 命令来查看yum上提供的mysql数据库可下载的版本：</p>
+<p>[root@xiaoluo ~]# yum list | grep mysql<br>就可以得到yum服务器上mysql数据库的可下载版本信息：</p>
+<p>然后我们可以通过输入 yum install -y mysql-server mysql mysql-devel 命令将mysql mysql-server mysql-devel都安装好(注意:安装mysql时我们并不是安装了mysql客户端就相当于安装好了mysql数据库了，我们还需要安装mysql-server服务端才行)</p>
+<p>[root@xiaoluo ~]# yum install -y mysql-server mysql mysql-deve</p>
+<p>在等待了一番时间后，yum会帮我们选择好安装mysql数据库所需要的软件以及其它附属的一些软件</p>
+<p>我们发现，通过yum方式安装mysql数据库省去了很多没必要的麻烦，当出现下面的结果时，就代表mysql数据库安装成功了</p>
+<p>此时我们可以通过如下命令，查看刚安装好的mysql-server的版本</p>
+<p>[root@xiaoluo ~]# rpm -qi mysql-server</p>
+<p>我们安装的mysql-server并不是最新版本，如果你想尝试最新版本，那就去mysql官网下载rpm包安装就行了，至此我们的mysql数据库已经安装完成了。</p>
+<h3 id="四、mysql数据库的初始化及相关配置">四、mysql数据库的初始化及相关配置</h3>
+<p>我们在安装完mysql数据库以后，会发现会多出一个mysqld的服务，这个就是咱们的数据库服务，我们通过输入 service mysqld start 命令就可以启动我们的mysql服务。</p>
+<p>注意：如果我们是第一次启动mysql服务，mysql服务器首先会进行初始化的配置，如：</p>
+<p>复制代码<br>[root@xiaoluo ~]# service mysqld start</p>
+<p>初始化 MySQL 数据库： WARNING: The host ‘xiaoluo’ could not be looked up with resolveip.<br>This probably means that your libc libraries are not 100 % compatible<br>with this binary MySQL version. The MySQL daemon, mysqld, should work<br>normally with the exception that host name resolving will not work.<br>This means that you should use IP addresses instead of hostnames<br>when specifying MySQL privileges !<br>Installing MySQL system tables…<br>OK<br>Filling help tables…<br>OK</p>
+<p>To start mysqld at boot time you have to copy<br>support-files/mysql.server to the right place for your system</p>
+<p>PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !<br>To do so, start the server, then issue the following commands:</p>
+<p>/usr/bin/mysqladmin -u root password ‘new-password’<br>/usr/bin/mysqladmin -u root -h xiaoluo password ‘new-password’</p>
+<p>Alternatively you can run:<br>/usr/bin/mysql_secure_installation</p>
+<p>which will also give you the option of removing the test<br>databases and anonymous user created by default.  This is<br>strongly recommended for production servers.</p>
+<p>See the manual for more instructions.</p>
+<p>You can start the MySQL daemon with:<br>cd /usr ; /usr/bin/mysqld_safe &amp;</p>
+<p>You can test the MySQL daemon with mysql-test-run.pl<br>cd /usr/mysql-test ; perl mysql-test-run.pl</p>
+<p>Please report any problems with the /usr/bin/mysqlbug script!</p>
+<p>这时我们会看到第一次启动mysql服务器以后会提示非常多的信息，目的就是对mysql数据库进行初始化操作，当我们再次重新启动mysql服务时，就不会提示这么多信息了，如：</p>
+<p>[root@xiaoluo ~]# service mysqld restart<br>停止 mysqld：                                             [确定]<br>正在启动 mysqld：                                          [确定]</p>
+<p>我们在使用mysql数据库时，都得首先启动mysqld服务，我们可以 通过  chkconfig —list | grep mysqld 命令来查看mysql服务是不是开机自动启动，如：</p>
+<p>[root@xiaoluo ~]# chkconfig —list | grep mysqld<br>mysqld             0:关闭    1:关闭    2:关闭    3:关闭    4:关闭    5:关闭    6:关闭</p>
+<p>我们发现mysqld服务并没有开机自动启动，我们当然可以通过 chkconfig mysqld on 命令来将其设置成开机启动，这样就不用每次都去手动启动</p>
+<p>[root@xiaoluo ~]# chkconfig mysqld on<br>[root@xiaoluo ~]# chkconfig —list | grep mysql<br>mysqld             0:关闭    1:关闭    2:启用    3:启用    4:启用    5:启用    6:关闭</p>
+<p>mysql数据库安装完以后只会有一个root管理员账号，但是此时的root账号还并没有为其设置密码，在第一次启动mysql服务时，会进行数据库的一些初始化工作，在输出的一大串信息中，我们看到有这样一行信息 ：</p>
+<p>/usr/bin/mysqladmin -u root password ‘new-password’　　// 为root账号设置密码</p>
+<p>所以我们可以通过 该命令来给我们的root账号设置密码(注意：这个root账号是mysql的root账号，非Linux的root账号)</p>
+<p>[root@xiaoluo ~]# mysqladmin -u root password ‘root’　　// 通过该命令给root账号设置密码为 root</p>
+<p>此时我们就可以通过 mysql -u root -p 命令来登录我们的mysql数据库了</p>
+<h3 id="五、mysql数据库的主要配置文件">五、mysql数据库的主要配置文件</h3>
+<p>1./etc/my.cnf 这是mysql的主配置文件</p>
+<p>我们可以查看一下这个文件的一些信息</p>
+<p>复制代码<br>[root@xiaoluo etc]# ls my.cnf<br>my.cnf</p>
+<p>[root@xiaoluo etc]# cat my.cnf<br>[mysqld]<br>datadir=/var/lib/mysql<br>socket=/var/lib/mysql/mysql.sock<br>user=mysql<br>Disabling symbolic-links is recommended to prevent assorted security risks<br>symbolic-links=0</p>
+<p>[mysqld_safe]<br>log-error=/var/log/mysqld.log<br>pid-file=/var/run/mysqld/mysqld.pid<br>复制代码<br>2./var/lib/mysql   mysql数据库的数据库文件存放位置</p>
+<p>我们的mysql数据库的数据库文件通常是存放在了/ver/lib/mysql这个目录下</p>
+<p>复制代码<br>[root@xiaoluo ~]# cd /var/lib/mysql/<br>[root@xiaoluo mysql]# ls -l<br>总用量 20488<br>-rw-rw——. 1 mysql mysql 10485760 4月   6 22:01 ibdata1<br>-rw-rw——. 1 mysql mysql  5242880 4月   6 22:01 ib_logfile0<br>-rw-rw——. 1 mysql mysql  5242880 4月   6 21:59 ib_logfile1<br>drwx———. 2 mysql mysql     4096 4月   6 21:59 mysql　　// 这两个是mysql数据库安装时默认的两个数据库文件<br>srwxrwxrwx. 1 mysql mysql        0 4月   6 22:01 mysql.sock<br>drwx———. 2 mysql mysql     4096 4月   6 21:59 test　　// 这两个是mysql数据库安装时默认的两个数据库文件<br>复制代码</p>
+<p>我们可以自己创建一个数据库，来验证一下该数据库文件的存放位置</p>
+<p>复制代码<br>创建一个我们自己的数据库：<br>mysql&gt; create database xiaoluo;<br>Query OK, 1 row affected (0.00 sec)</p>
+<p>[root@xiaoluo mysql]# ls -l<br>总用量 20492<br>-rw-rw——. 1 mysql mysql 10485760 4月   6 22:01 ibdata1<br>-rw-rw——. 1 mysql mysql  5242880 4月   6 22:01 ib_logfile0<br>-rw-rw——. 1 mysql mysql  5242880 4月   6 21:59 ib_logfile1<br>drwx———. 2 mysql mysql     4096 4月   6 21:59 mysql<br>srwxrwxrwx. 1 mysql mysql        0 4月   6 22:01 mysql.sock<br>drwx———. 2 mysql mysql     4096 4月   6 21:59 test<br>drwx———. 2 mysql mysql     4096 4月   6 22:15 xiaoluo　　// 这个就是我们刚自己创建的xiaoluo数据库<br>[root@xiaoluo mysql]# cd xiaoluo/<br>[root@xiaoluo xiaoluo]# ls<br>db.opt<br>复制代码<br>3./var/log mysql数据库的日志输出存放位置</p>
+<p>我们的mysql数据库的一些日志输出存放位置都是在/var/log这个目录下</p>
+<p>复制代码<br>[root@xiaoluo xiaoluo]# cd<br>[root@xiaoluo ~]# cd /var/log<br>[root@xiaoluo log]# ls<br>amanda                cron           maillog-20130331   spice-vdagent.log<br>anaconda.ifcfg.log    cron-20130331  mcelog             spooler<br>anaconda.log          cups           messages           spooler-20130331<br>anaconda.program.log  dirsrv         messages-20130331  sssd<br>anaconda.storage.log  dmesg          mysqld.log         tallylog<br>anaconda.syslog       dmesg.old      ntpstats           tomcat6<br>anaconda.xlog         dracut.log     piranha            wpa_supplicant.log<br>anaconda.yum.log      gdm            pm-powersave.log   wtmp<br>audit                 httpd          ppp                Xorg.0.log<br>boot.log              ibacm.log      prelink            Xorg.0.log.old<br>btmp                  lastlog        sa                 Xorg.1.log<br>btmp-20130401         libvirt        samba              Xorg.2.log<br>cluster               luci           secure             Xorg.9.log<br>ConsoleKit            maillog        secure-20130331    yum.log<br>复制代码</p>
+<p>其中mysqld.log 这个文件就是我们存放我们跟mysql数据库进行操作而产生的一些日志信息，通过查看该日志文件，我们可以从中获得很多信息</p>
+<p>因为我们的mysql数据库是可以通过网络访问的，并不是一个单机版数据库，其中使用的协议是 tcp/ip 协议，我们都知道mysql数据库绑定的端口号是 3306 ，所以我们可以通过 netstat -anp 命令来查看一下，Linux系统是否在监听 3306 这个端口号：</p>
+<p>结果如上所示，Linux系统监听的3306端口号就是我们的mysql数据库！！！！</p>
+<p><img src="/img/mysql-1.png" alt=""><br><img src="/img/mysql-2.png" alt=""><br><img src="/img/mysql-3.png" alt=""><br><img src="/img/mysql-4.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="一、mysql简介">一、mysql简介</h3>
+<p>说到数据库，我们大多想到的是关系型数据库，比如mysql、oracle、sqlserver等等，这些数据库软件在windows上安装都非常的方便，在Linux上如果要安装数据库，咱不得不首先推荐的是mysq]]>
+    </summary>
+    
+      <category term="mysql" scheme="http://aliencegg.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[linux(1)-VPN配置]]></title>
+    <link href="http://aliencegg.github.io/2014/12/18/linux1/"/>
+    <id>http://aliencegg.github.io/2014/12/18/linux1/</id>
+    <published>2014-12-18T07:24:45.000Z</published>
+    <updated>2014-12-18T07:54:36.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="安装pptpd">安装pptpd</h3>
+<p>对于64位CentOS，执行<code>wget http://acelnmp.googlecode.com/files/pptpd-1.3.4-1.rhel5.1.x86_64.rpm</code>rpm -ivh pptpd-1.3.4-1.rhel5.1.x86_64.rpm</p>
+<h3 id="修改配置文件">修改配置文件</h3>
+<p>1.配置文件/etc/ppp/options.pptpd<br><code>cp /etc/ppp/options.pptpd /etc/ppp/options.pptpd.bak</code>vi /etc/ppp/options.pptpd<br>解析：我还建议是在原配置文件上添加内容来配置pptp ，省的不必要的麻烦和问题</p>
+<p>将如下内容添加到到options.pptpd中：<br><code>ms-dns 8.8.8.8</code>ms-dns 8.8.4.4<br>然后保存这个文件。<br>解析：ms-dns 8.8.8.8， ms-dns 8.8.4.4是使用google的dns服务器。</p>
+<p>2.配置文件/etc/ppp/chap-secrets<br><code>cp /etc/ppp/chap-secrets   /etc/ppp/chap-secrets.bak</code>vi /etc/ppp/chap-secrets<br>chap-secrets内容如下：<br><code>Secrets for authentication using CHAP</code>client server secret IP addresses<br>myusername pptpd mypassword <em><br>//myusername是你的vpn帐号，mypassword是你的vpn的密码，</em>表示对任何ip，记得不要丢了这个星号。我这里根据这个格式，假设我的vpn的帐号是ksharpdabu，密码是 sky。那么，应该如下：<br>``ksharpdabu pptpd sky *</p>
+<p>3.配置文件/etc/pptpd.conf<br><code>#cp /etc/pptpd.conf     /etc/pptpd.conf.bak</code>#vi /etc/pptpd.conf<br>添加下面两行：<br><code>localip 192.168.9.1</code>remoteip 192.168.9.11-30 //表示vpn客户端获得ip的范围</p>
+<p>关键点：pptpd.conf这个配置文件必须保证最后是以空行结尾才行，否则会导致启动pptpd服务时，出现“Starting pptpd:”，一直卡着不动的问题，无法启动服务，切记呀！（相关文档可以查看：Starting pptpd: 运行不下去的原因）<br>ppp = 2.4.4 is needed by pptpd-1.3.4-2.rhel5.x86_64</p>
+<p>4.配置文件/etc/sysctl.conf<br><code>#vi /etc/sysctl.conf //修改内核设置，使其支持转发
+将net.ipv4.ip_forward = 0 改成 net.ipv4.ip_forward = 1保存修改后的文件</code>#/sbin/sysctl -p</p>
+<p>第四步：启动pptp vpn服务和iptables<br><code>#/sbin/service pptpd start 或者 #service pptpd start
+经过前面步骤，我们的VPN已经可以拨号登录了，但是还不能访问任何网页。最后一步就是添加iptables转发规则了，输入下面的指令：
+启动iptables和nat转发功能，很关键的呀：</code>#/sbin/service iptables start //启动iptables<br><code>#/sbin/iptables -t nat -A POSTROUTING -o eth0 -s 192.168.9.0/24 -j MASQUERADE 或者使用下面的一种：</code>#iptables -t nat -A POSTROUTING -o eth0 -s 192.168.9.0/24 -j SNAT —to-source 207.210.83.140<br>//注意：命令中的 “-o eth0”是指定网卡名称，如果是多个网卡，就根据需要将 -o eth0 改成你  -o ethXX (ehtXX是你网卡的名称)   ，可以通过ifconfig 查看有哪那些连通外网的网卡，一般vps都是单网卡的，而且大都网卡默认名都叫eth0  。但是事情总是多样的，所以如果你的上网的网卡不是 叫 eth0  ，那么就必须去掉 -o eth0  。直接让系统判断你用的网卡，所以将上面的命令改成：<br>``iptables -t nat -A POSTROUTING    -s 192.168.9.0/24 -j SNAT —to-source 207.210.83.140</p>
+<p>//你需要将207.210.83.140替换成你的vps的公网ip地址，因为这里我写的是我的。还有就是有人说我这—to-source前只有一个横杠，其实是有两个横杠的。文章在编辑模式下显示是两个横杠，因为用的是英文输入法，所以，发表后就变成了一个横杆，而且在源码下复制粘贴也是一横，只有在编辑模式下才能看清楚是两横。但是可以明显看到to前面的那一横比source前的那横长一些，这些都是我操作记录下的命令，不会有错的。为了防止你们出错，我还是用不同的颜色标记吧。<br>这里我先前写的不是很详细，现在补上：<br>需要注意的是，这个指令中的“192.168.9.0/24”是根据之前的配置文件中的“localip”网段来改变的(网上有的教程是192.168.0.0/24 )，比如你设置的 “10.0.0.1”网段，则应该改为“10.0.0.0/24”。此外还有一点需要注意的是eth0，如果你的外网网卡不是eth0，而是eth1（比 如SoftLayer的服务器就是这样的情况），那么请记得将eth0也更改为对应的网卡编号，不然是上不了网的！<br>如果你的linux vps是ppp或者ADSL这种由DHCP动态分配获取ip的方式（当然vps的ip基本都是是固定的。如果你是XEN的vps，那么这个转发规则其实也是适用的，就是让vps自己判断自己的ip，省去了我们指定。），那么就需要用-j MASQUERADE这种写法，就是ip伪装。当然如果使用iptables -t nat -A POSTROUTING -o eth0 -s 192.168.9.0/24 -j SNAT —to-source XXX.XXX.XXX.XXX 这种转发规则其实也是可以的，这样亲自指定自己的vps的ip地址。以后你通过vpn访问网站，显示的就是这个ip了。<br><code>#/etc/init.d/iptables save //保存iptables的转发规则</code>#/sbin/service iptables restart //重新启动iptables</p>
+<p>最后一步：重启pptp vpn<br>``#service pptpd restart</p>
+<h3 id="连接VPN_客户端设置">连接VPN 客户端设置</h3>
+<p><img src="/img/linux1-1.png" alt=""><br><img src="/img/linux1-2.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="安装pptpd">安装pptpd</h3>
+<p>对于64位CentOS，执行<code>wget http://acelnmp.googlecode.com/files/pptpd-1.3.4-1.rhel5.1.x86_64.rpm</code>rpm -iv]]>
+    </summary>
+    
+      <category term="linux" scheme="http://aliencegg.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[linux(0)]]></title>
+    <link href="http://aliencegg.github.io/2014/12/11/linux0/"/>
+    <id>http://aliencegg.github.io/2014/12/11/linux0/</id>
+    <published>2014-12-11T05:50:29.000Z</published>
+    <updated>2014-12-11T06:28:49.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="磁盘分区格式">磁盘分区格式</h2>
+<ul>
+<li>各种各样的格式看的真是眼花啊<br><img src="/img/linux0-1.png" alt="root"></li>
+<li>linux分区不同于windows，linux下硬盘设备名为（IDE硬盘为hdx（x为从a—d）因为IDE硬盘最多四个，SCSI，SATA，USB硬盘为sdx（x为a—z）），硬盘主分区最多为4个，.所以主分区从sdb1开始到sdb4，逻辑分区从sdb5开始，（逻辑分区永远从sdb5开始…）设备名可以使用fdisk –l查看<ul>
+<li>插个题外话，硬盘接口分为<strong>IDE</strong>、<strong>SATA</strong>、<strong>SCSI</strong>和<strong>光纤通道</strong>四种，IDE接口硬盘多用于家用产品中，也部分应用于服务器，SATA2是目前PC上最普遍的，SSD只能在SATA3接口上发挥最大性能，速率就不要管了，记不住。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="磁盘分区格式">磁盘分区格式</h2>
+<ul>
+<li>各种各样的格式看的真是眼花啊<br><img src="/img/linux0-1.png" alt="root"></li>
+<li>linux分区不同于windows，linux下硬盘设备名为（IDE硬]]>
+    </summary>
+    
+      <category term="linux" scheme="http://aliencegg.github.io/tags/linux/"/>
+    
+      <category term="linux" scheme="http://aliencegg.github.io/categories/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo系列（六）番番外]]></title>
+    <link href="http://aliencegg.github.io/2014/12/09/6st/"/>
+    <id>http://aliencegg.github.io/2014/12/09/6st/</id>
+    <published>2014-12-09T07:18:00.000Z</published>
+    <updated>2014-12-09T09:03:08.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="添加微博秀">添加微博秀</h2>
+<a id="more"></a>
+<ol>
+<li>去<a href="http://app.weibo.com/tool/weiboshow" target="_blank" rel="external">新浪微博开放平台</a>设置和生成微博秀代码。</li>
+<li>在themes/pacman/layout/_widget中新建名为weibo.ejs的文件，将刚才的代码直接保存到这里。</li>
+<li>在themes/pacman/_config.yml中，添加如下：</li>
+</ol>
+<h2 id="添加fork_me_on_github">添加fork me on github</h2>
+<ul>
+<li>在路径<code>D:\test2\themes\pacman\layout</code>下的<strong>layout.ejs</strong>文件中加入代码<blockquote>
+<p>要记得替换you中的内容，变成自己git的地址，<a href="https://github.com/blog/273-github-ribbons" target="_blank" rel="external">官方地址</a></p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;a href=<span class="string">"https://github.com/you"</span>&gt;<span class="xml"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">style</span>=<span class="value">"position: absolute; top: 0; right: 0; border: 0;"</span> <span class="attribute">src</span>=<span class="value">"https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67"</span> <span class="attribute">alt</span>=<span class="value">"Fork me on GitHub"</span> <span class="attribute">data-canonical-src</span>=<span class="value">"https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"</span>&gt;</span><span class="tag">&lt;/<span class="title">a</span>&gt;</span></span></div></pre></td></tr></table></figure>
+
+<h2 id="添加百度站长工具">添加百度站长工具</h2>
+<ul>
+<li>让我再研究研究这个到底有啥用。。</li>
+</ul>
+<h2 id="添加sitemap">添加sitemap</h2>
+<ul>
+<li>现在只知道是用来交给搜索引擎的，百度站长的<strong>html</strong>验证已经通过了。<strong>Yeah</strong></li>
+</ul>
+<h2 id="More">More</h2>
+<ul>
+<li>在more标签前面的都是摘要，more后面的需要点链接才能显示。</li>
+</ul>
+<h2 id="To_Do_List">To Do List</h2>
+<ol>
+<li>rss</li>
+<li>high yi xia</li>
+<li>sitemap</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="添加微博秀">添加微博秀</h2>
+]]>
+    
+    </summary>
+    
+      <category term="结束" scheme="http://aliencegg.github.io/tags/%E7%BB%93%E6%9D%9F/"/>
+    
+      <category term="hexo" scheme="http://aliencegg.github.io/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo系列（五）番外]]></title>
+    <link href="http://aliencegg.github.io/2014/12/07/5st/"/>
+    <id>http://aliencegg.github.io/2014/12/07/5st/</id>
+    <published>2014-12-06T16:31:00.000Z</published>
+    <updated>2014-12-07T17:01:21.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="事出有因：今天决定好好弄一下博客">事出有因：今天决定好好弄一下博客</h1>
+<ul>
+<li>找了好久的教程，但是发现找不到了，后来还是到主题文件夹下的 &gt; _config.yml 文件夹自己摸索一下，<ul>
+<li><h3 id="首先是图片，这个还略麻烦。">首先是图片，这个还略麻烦。</h3>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight makedown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="label">imglogo:</span></div><div class="line"><span class="label">  enable:</span> <span class="literal">true</span>             ## display image logo <span class="literal">true</span>/<span class="literal">false</span>.</div><div class="line"><span class="label">  src:</span> img/logo.svg        ## <span class="escape">`.</span>svg<span class="escape">` </span><span class="literal">and</span> <span class="escape">`.</span>png<span class="escape">` </span>are recommended,please put image into the theme folder <span class="escape">`/</span>pacman/source/img<span class="escape">`.</span></div><div class="line"><span class="label">favicon: img/favicon.ico   ## size:</span><span class="number">32</span>px*<span class="number">32</span>px,<span class="escape">`.</span>ico<span class="escape">` </span>is recommended,please put image into the theme folder <span class="escape">`/</span>pacman/source/img<span class="escape">`.</span>     </div><div class="line"><span class="label">apple_icon: ##img/pacman.jpg ## size:</span><span class="number">114</span>px*<span class="number">114</span>px,please put image into the theme folder <span class="escape">`/</span>pacman/source/img<span class="escape">`.</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li><code>svg</code>可以在这个网站上找到<a href="https://icomoon.io" target="_blank" rel="external">icomoon</a></li>
+<li><code>ico</code>可以在这个网站上生成<a href="http://www.ico.la/" target="_blank" rel="external">icola</a></li>
+<li><code>favicon.ico</code>这个文件貌似是根据文件夹下面的pacman.jpg（或.png）生成的，自动生成。</li>
+<li><code>apple_icon</code>这个是网站在apple设备上显示的图片，不知道apple为啥还要搞特殊化。</li>
+<li><h3 id="然后有个友情链接">然后有个<strong>友情链接</strong></h3>
+</li>
+<li><p>友情链接的网址添加可以在<code>links</code>属性下添加。我自己随便加了一个jacman主题的链接，改天换掉。<br><code>&lt;li&gt;&lt;a href=&quot;http://wuchong.me&quot; target=&quot;_blank&quot; title=&quot;WuChong&quot;&gt;Jark&#39;s Blog&lt;/a&gt;&lt;/li&gt;</code></p>
+</li>
+<li><h3 id="改下面Powered_by_hexo_and_Theme_by_Pacman_©_2014_AlienceGG_的链接">改下面Powered by hexo and Theme by Pacman © 2014 AlienceGG 的链接</h3>
+<ul>
+<li>在文件夹内的 &gt; _config.yml 文件的url选项</li>
+</ul>
+</li>
+<li><h3 id="更新了其他链接的正确性">更新了其他链接的正确性</h3>
+</li>
+<li><h3 id="总算加上了评论功能了！">总算加上了<strong>评论</strong>功能了！</h3>
+<ul>
+<li>后台开放的通用代码直接用就好了，而且DIY了一下，改了它的css，去掉了相关微博显示，和分享到QQ空间的广告植入。<br>公开部分代码如下：</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="class">.ds-sync</span><span class="rules">{<span class="rule"><span class="attribute">display</span>:<span class="value">none <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="id">#ds-thread</span> <span class="id">#ds-reset</span> <span class="class">.ds-powered-by</span><span class="rules">{<span class="rule"><span class="attribute">display</span>:<span class="value">none</span></span>;<span class="rule">}</span></span></div></pre></td></tr></table></figure>
+
+<ul>
+<li><code>现在已经是北京时间8号的凌晨1点了，学车真的好累好累，先睡了，明天再调其他的。</code></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="事出有因：今天决定好好弄一下博客">事出有因：今天决定好好弄一下博客</h1>
+<ul>
+<li>找了好久的教程，但是发现找不到了，后来还是到主题文件夹下的 &gt; _config.yml 文件夹自己摸索一下，<ul>
+<li><h3 id="首先是图片，这个还]]>
+    </summary>
+    
+      <category term="结束" scheme="http://aliencegg.github.io/tags/%E7%BB%93%E6%9D%9F/"/>
+    
+      <category term="hexo" scheme="http://aliencegg.github.io/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[python 2]]></title>
+    <link href="http://aliencegg.github.io/2014/11/27/python-2-1/"/>
+    <id>http://aliencegg.github.io/2014/11/27/python-2-1/</id>
+    <published>2014-11-27T06:42:46.000Z</published>
+    <updated>2014-11-27T09:08:03.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="URL的格式">URL的格式</h1>
+<p>其实URL是有格式的。比如<a href="http://www.bupt.edu.cn/content/content.php?p=81_15_2417" target="_blank" rel="external">http://www.bupt.edu.cn/content/content.php?p=81_15_2417</a><br>scheme是http<br>username没有<br>password也省略了<br>host是www.bupt.edu.ch<br>port省略了，默认80<br>path是/content/content.php<br>query是p=81_15_2417<br>fragment没有 </p>
+<p>比如<a href="https://foo:bar@www.example.com:8080/abc/def/ghi?jkl=mno&amp;pqr=stu#vwxyz" target="_blank" rel="external">https://foo:bar@www.example.com:8080/abc/def/ghi?jkl=mno&amp;pqr=stu#vwxyz</a><br>scheme是https<br>username是foo<br>password是bar<br>host是www.example.com<br>port是8080<br>path是/abc/def/ghi<br>query是jkl=mno&amp;pqr=stu<br>fragment是vwxyz </p>
+<h1 id="多线程"><a href="http://www.oschina.net/code/snippet_110138_22634#37745" target="_blank" rel="external">多线程</a></h1>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</div><div class="line"><span class="keyword">from</span> Queue <span class="keyword">import</span> Queue</div><div class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</div><div class="line"><span class="comment">#q是任务队列</span></div><div class="line"><span class="comment">#NUM是并发线程总数</span></div><div class="line"><span class="comment">#JOBS是有多少任务</span></div><div class="line">q = Queue()</div><div class="line">NUM = <span class="number">2</span></div><div class="line">JOBS = <span class="number">10</span></div><div class="line"><span class="comment">#具体的处理函数，负责处理单个任务</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">do_somthing_using</span><span class="params">(arguments)</span>:</span></div><div class="line">    <span class="keyword">print</span> arguments</div><div class="line"><span class="comment">#这个是工作进程，负责不断从队列取数据并处理</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">working</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        arguments = q.get()</div><div class="line">        do_somthing_using(arguments)</div><div class="line">        sleep(<span class="number">1</span>)</div><div class="line">        q.task_done()</div><div class="line"><span class="comment">#fork NUM个线程等待队列</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(NUM):</div><div class="line">    t = Thread(target=working)</div><div class="line">    t.setDaemon(<span class="keyword">True</span>)</div><div class="line">    t.start()</div><div class="line"><span class="comment">#把JOBS排入队列</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(JOBS):</div><div class="line">    q.put(i)</div><div class="line"><span class="comment">#等待所有JOBS完成</span></div><div class="line">q.join()</div></pre></td></tr></table></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="URL的格式">URL的格式</h1>
+<p>其实URL是有格式的。比如<a href="http://www.bupt.edu.cn/content/content.php?p=81_15_2417" target="_blank" rel="external"]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[spider2]]></title>
+    <link href="http://aliencegg.github.io/2014/11/20/spider2/"/>
+    <id>http://aliencegg.github.io/2014/11/20/spider2/</id>
+    <published>2014-11-20T07:15:34.000Z</published>
+    <updated>2014-11-20T07:18:52.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="打印文章内容报错">打印文章内容报错</h1>
+<ul>
+<li>``UnicodeDecodeError: ‘ascii’ codec can’t decode byte 0x?? in position 1: ordinal not in range(128)</li>
+<li>python在安装时，默认的编码是ascii，当程序中出现非ascii编码时，python的处理常常会报这样的错UnicodeDecodeError: ‘ascii’ codec can’t decode byte 0x?? in position 1: ordinal not in range(128),python没办法处理非ascii编码的，此时需要自己设置将python的默认编码，一般设置为utf8的编码格式。<br>查询系统默认编码可以在解释器中输入以下命令：<br>Python代码    <blockquote>
+<blockquote>
+<p>sys.getdefaultencoding()<br>设置默认编码时使用：<br>Python代码<br>sys.setdefaultencoding(‘utf8’)<br>可能会报AttributeError: ‘module’ object has no attribute ‘setdefaultencoding’的错误，执行reload(sys)，在执行以上命令就可以顺利通过。<br>此时在执行sys.getdefaultencoding()就会发现编码已经被设置为utf8的了，但是在解释器里修改的编码只能保证当次有效，在重启解释器后，会发现，编码又被重置为默认的ascii了，那么有没有办法一次性修改程序或系统的默认编码呢。</p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<p>有2种方法设置python的默认编码：<br>一个解决的方案在程序中加入以下代码：<br>Python代码<br>import sys<br>reload(sys)<br>sys.setdefaultencoding(‘utf8’)<br> 另一个方案是在python的Lib\site-packages文件夹下新建一个sitecustomize.py，内容为：<br>Python代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># encoding=utf8  </span></div><div class="line"><span class="keyword">import</span> sys  </div><div class="line">  </div><div class="line">reload(sys)  </div><div class="line">sys.setdefaultencoding(<span class="string">'utf8'</span>)</div></pre></td></tr></table></figure>
+
+<ul>
+<li>此时重启python解释器，执行sys.getdefaultencoding()，发现编码已经被设置为utf8的了，多次重启之后，效果相同，这是因为系统在python启动的时候，自行调用该文件，设置系统的默认编码，而不需要每次都手动的加上解决代码，属于一劳永逸的解决方法。</li>
+<li>另外有一种解决方案是在程序中所有涉及到编码的地方，强制编码为utf8，即添加代码encode(“utf8”)，这种方法并不推荐使用，因为一旦少写一个地方，将会导致大量的错误报告，我曾经遇到这种情况，错误日志压缩之后尚有70多K，全都是这一个问题，让人有很崩溃的感觉。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="打印文章内容报错">打印文章内容报错</h1>
+<ul>
+<li>``UnicodeDecodeError: ‘ascii’ codec can’t decode byte 0x?? in position 1: ordinal not in range(128)]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[yahoo spider]]></title>
+    <link href="http://aliencegg.github.io/2014/11/19/yahoo-spider/"/>
+    <id>http://aliencegg.github.io/2014/11/19/yahoo-spider/</id>
+    <published>2014-11-19T08:05:17.000Z</published>
+    <updated>2014-11-19T08:53:44.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="还是一句话_直接上代码">还是一句话 直接上代码</h1>
+<ul>
+<li>用于查找a标签里的href的值，再访问这个值，得到文章的内容，果然是要DB的公司，网站都是同步加载的，没有用到js的那么复杂，cnn，bbc都是 ，bbc还被墙掉了。。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># -*- coding: utf-8 -*-</span></div><div class="line"><span class="comment">##版本：1.0</span></div><div class="line"><span class="comment">##环境：python2.7</span></div><div class="line"><span class="comment">##作者：alience</span></div><div class="line"><span class="comment">##日期：2014.11.15</span></div><div class="line"><span class="comment">##说明：文件生成目录为：D:/qsbk</span></div><div class="line">   </div><div class="line"><span class="keyword">import</span> urllib2  </div><div class="line"><span class="keyword">import</span> urllib  </div><div class="line"><span class="keyword">import</span> re  </div><div class="line"><span class="keyword">import</span> thread  </div><div class="line"><span class="keyword">import</span> time  </div><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">import</span> sys</div><div class="line"><span class="keyword">import</span> datetime</div><div class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">#----------- 程序的入口处 -----------  </span></div><div class="line"><span class="keyword">print</span> <span class="string">u""" </span></div><div class="line">--------------------------------------- </div><div class="line">   程序：cnn爬虫 </div><div class="line">   版本：0.3 </div><div class="line">   作者：alience</div><div class="line">   日期：2014-11-18 </div><div class="line">   语言：Python 2.7 </div><div class="line">--------------------------------------- </div><div class="line">"""</div><div class="line">myUrl = <span class="string">"https://news.search.yahoo.com/search;_ylt=AwrSyCQlQ2xUITMAXnHQtDMD?p=visit&fr=yfp-t-703&fr2=piv-web&xargs=0&pstart=1&b="</span>+<span class="string">'1'</span></div><div class="line">user_agent = <span class="string">'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'</span> </div><div class="line">headers = { <span class="string">'User-Agent'</span> : user_agent } </div><div class="line">req = urllib2.Request(myUrl, headers = headers) </div><div class="line">myResponse = urllib2.urlopen(req).read()</div><div class="line">soup = BeautifulSoup(myResponse)</div><div class="line"></div><div class="line"><span class="comment">#ser_results=soup.find_all(attrs={"class":"cnnResultsList"})</span></div><div class="line"><span class="comment">#ser_results=soup.find_all('div',class_='cnn_shdbox')</span></div><div class="line">ser_results=soup.find(attrs={<span class="string">"id"</span>:<span class="string">"web"</span>})</div><div class="line"><span class="comment"># only one ser_results=soup.find_all("ul")</span></div><div class="line"><span class="comment">#ser_results=soup.find(class_=' cnnResultsList ')</span></div><div class="line"><span class="comment">#ul_tag = soup.find('ul', {'class': 'cnnResultsList'})</span></div><div class="line">ol_ser_results=ser_results.find(<span class="string">'ol'</span>)</div><div class="line">a_tag=ol_ser_results.find_all(<span class="string">'a'</span>)</div><div class="line"><span class="keyword">print</span> <span class="string">'------------'</span></div><div class="line">i=<span class="number">0</span></div><div class="line"><span class="keyword">for</span> a <span class="keyword">in</span> a_tag:</div><div class="line">    <span class="keyword">print</span> i</div><div class="line">    <span class="keyword">print</span> a.get(<span class="string">'href'</span>)</div><div class="line">    <span class="keyword">print</span> <span class="string">'---------'</span></div><div class="line">    i=i+<span class="number">1</span></div><div class="line"><span class="keyword">print</span> <span class="string">'------------'</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">#atag=ser_results.find_all('li')</span></div><div class="line">        </div><div class="line"></div><div class="line"><span class="comment">#print results.find_all('li',class_="cnnResultTitle cnnResultTitleTopic")</span></div><div class="line"><span class="comment">#i=i+1</span></div><div class="line"><span class="comment">#i=0</span></div><div class="line"><span class="comment">#for pic in texts:</span></div><div class="line">			</div><div class="line">			<span class="comment">#print '---'+str(i)</span></div><div class="line"></div><div class="line">			<span class="comment">#pic_t= pic.get_text()</span></div><div class="line"></div><div class="line">			<span class="comment">#print pic_t.replace("\n","")</span></div><div class="line">			<span class="comment">#p_link=p_img.get('href')</span></div><div class="line">			<span class="comment">#print  p_link</span></div><div class="line">			<span class="comment">#i=i+1</span></div><div class="line"></div><div class="line">	    <span class="comment">#myPage = myResponse.read()  </span></div><div class="line">	    <span class="comment">#encode的作用是将unicode编码转换成其他编码的字符串  </span></div><div class="line">	    <span class="comment">#decode的作用是将其他编码的字符串转换成unicode编码  </span></div><div class="line">	    <span class="comment">#unicodePage = myPage.decode("utf-8")</span></div></pre></td></tr></table></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="还是一句话_直接上代码">还是一句话 直接上代码</h1>
+<ul>
+<li>用于查找a标签里的href的值，再访问这个值，得到文章的内容，果然是要DB的公司，网站都是同步加载的，没有用到js的那么复杂，cnn，bbc都是 ，bbc还被墙掉了。。</li>
+</u]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[糗事百科爬虫试水]]></title>
+    <link href="http://aliencegg.github.io/2014/11/15/spider/"/>
+    <id>http://aliencegg.github.io/2014/11/15/spider/</id>
+    <published>2014-11-15T09:00:33.000Z</published>
+    <updated>2014-11-18T02:42:10.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="for循环的机制是迭代">for循环的机制是迭代</h1>
+<p>  如果for循环里需要两个变量的话，那么可以用**zip 函数把两个变量“打包”起来<br>  for i,j in zip(x,y)</p>
+<h1 id="正则匹配">正则匹配</h1>
+<p>  (.*?)用来匹配所有的内容</p>
+<h1 id="BeautifulSoup真的是神器">BeautifulSoup真的是神器</h1>
+<h2 id="安装过程">安装过程</h2>
+<pre><code>网上没有一个说清楚的，实践出真知，在[<span class="link_label">官网</span>](<span class="link_url">http://www.crummy.com/software/BeautifulSoup/bs4/download/4.2/</span>) 下一个压缩包（就是源代码），复制里面的bs4文件夹，粘贴到``C:\Python27\Lib路径下去就ok了
+</code></pre><h2 id="直接上例子">直接上例子</h2>
+<ul>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># -*- coding: cp936 -*-</span></div><div class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</div><div class="line">html_doc = <span class="string">"""</span></div><div class="line">&lt;html&gt;&lt;head&gt;&lt;title&gt;The Dormouse's story&lt;/title&gt;&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;p class="title"&gt;&lt;b&gt;The Dormouse's story&lt;/b&gt;&lt;/p&gt;</div><div class="line"></div><div class="line">&lt;p class="story"&gt;Once upon a time there were three little sisters; and their names were&gt;&lt;/p&gt;</div><div class="line"></div><div class="line">&lt;div class="thumb"&gt;000&lt;a href="/article/94021199?list=hot&amp;s=4720116" </div><div class="line">	target="_blank" onclick="_hmt.push(['_trackEvent', 'post', 'click', 'signlePost'])"&gt;</div><div class="line">&lt;img src="http://pic.qiushibaike.com/system/pictures/9402/94021199/medium/app94021199.jpg"</div><div class="line">alt="ÏÂ´ÎÔÙÈÓÕâÃ´¸ß¾Í²»ÅãÄãÍæÁË"&gt;</div><div class="line">&lt;/a&gt;</div><div class="line"></div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;div class="thumb"&gt;111</div><div class="line"></div><div class="line">&lt;a href="/article/94023051?list=hot&amp;s=4720116" target="_blank" </div><div class="line">onclick="_hmt.push(['_trackEvent', 'post', 'click', 'signlePost'])"&gt;</div><div class="line">&lt;img src="http://pic.qiushibaike.com/system/pictures/9402/94023051/medium/app94023051.jpg" </div><div class="line">alt="È´»¨ÁË247Ôª¸øº¢×ÓÂòÁËÕâ¸öÍæ¾ß³µ"&gt;</div><div class="line">&lt;/a&gt;</div><div class="line"></div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;div class="thumb"&gt;222</div><div class="line"></div><div class="line">&lt;a href="/article/93987073?list=hot&amp;s=4720125" target="_blank" </div><div class="line">onclick="_hmt.push(['_trackEvent', 'post', 'click', 'signlePost'])"&gt;</div><div class="line">&lt;img src="http://pic.qiushibaike.com/system/pictures/9398/93987073/medium/app93987073.jpg" </div><div class="line">alt="Ô¸ÀÑÀÑÉíÌå½¡¿µ"&gt;</div><div class="line">&lt;/a&gt;</div><div class="line"></div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;div &gt;3333</div><div class="line"></div><div class="line">&lt;a href="/article/93987073?list=hot&amp;s=4720125" target="_blank" </div><div class="line">onclick="_hmt.push(['_trackEvent', 'post', 'click', 'signlePost'])"&gt;</div><div class="line">&lt;img src="http://pic.qiushibaike.com/system/pictures/9398/93987073/medium/app93987073.jpg" </div><div class="line">alt="Ô¸ÀÑÀÑÉíÌå½¡¿µ"&gt;</div><div class="line">&lt;/a&gt;</div><div class="line"></div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;p class="story"&gt;...&lt;/p&gt;</div><div class="line">"""</div><div class="line"></div><div class="line">soup = BeautifulSoup(html_doc)</div><div class="line"></div><div class="line">my_pic=soup.find_all(<span class="string">'div'</span>,class_=<span class="string">"thumb"</span>)</div><div class="line">i=<span class="number">0</span></div><div class="line"><span class="keyword">for</span> pic <span class="keyword">in</span> my_pic:</div><div class="line">	<span class="keyword">print</span> <span class="string">'---'</span>+str(i)</div><div class="line"></div><div class="line">	pic_t= pic.get_text()</div><div class="line"></div><div class="line">	<span class="keyword">print</span> pic_t.replace(<span class="string">"\n"</span>,<span class="string">""</span>)</div><div class="line">	<span class="comment">#p_link=p_img.get('href')</span></div><div class="line">	<span class="comment">#print  p_link</span></div><div class="line">	i=i+<span class="number">1</span></div><div class="line"></div><div class="line">soup = BeautifulSoup(html_doc)</div><div class="line"></div><div class="line">my_pic=soup.find_all(<span class="string">'div'</span>,class_=<span class="string">"thumb"</span>)</div><div class="line">i=<span class="number">0</span></div><div class="line"></div><div class="line"><span class="keyword">for</span> pic <span class="keyword">in</span> my_pic:</div><div class="line">	<span class="keyword">print</span> <span class="string">'---'</span>+str(i)</div><div class="line">	<span class="comment">#获取div块的文本内容，也就是000，111，222，（注意它没有获取所有的div块，</span></div><div class="line">	<span class="comment">#因为在前面对div进行了筛选）</span></div><div class="line"></div><div class="line">	pic_t= pic.get_text()</div><div class="line">	<span class="keyword">print</span> pic_t.replace(<span class="string">"\n"</span>,<span class="string">""</span>)</div><div class="line"></div><div class="line">	<span class="comment">#获取a标签的内容，从头&lt;a&gt;到尾&lt;/a&gt;</span></div><div class="line">	pic_img=pic.find(<span class="string">'a'</span>)</div><div class="line"></div><div class="line">	<span class="comment">#记住这个句柄，用它get标签里面的属性，比如href，src之类的，</span></div><div class="line">	<span class="comment">#需要注意的是它不再是find，变成了get！！！</span></div><div class="line">	p_link=p_img.get(<span class="string">'href'</span>)</div><div class="line"></div><div class="line">	<span class="comment">#print  p_link</span></div><div class="line">	i=i+<span class="number">1</span></div></pre></td></tr></table></figure>
+
+<p>  需要注意的就是find_all和find还有get的用法</p>
+<h1 id="python_中三个引号">python 中三个引号</h1>
+</li>
+<li>可以把中间的内容全部包括，不用换行\连字符来连接每一行</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="for循环的机制是迭代">for循环的机制是迭代</h1>
+<p>  如果for循环里需要两个变量的话，那么可以用**zip 函数把两个变量“打包”起来<br>  for i,j in zip(x,y)</p>
+<h1 id="正则匹配">正则匹配</h1>
+<p]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[python语法（三）]]></title>
+    <link href="http://aliencegg.github.io/2014/10/23/python-3/"/>
+    <id>http://aliencegg.github.io/2014/10/23/python-3/</id>
+    <published>2014-10-23T02:01:10.000Z</published>
+    <updated>2014-10-23T09:47:55.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="文件读写">文件读写</h3>
+<p>昨天纠结了半天的文件读写问题，在论坛上问了大神以后发现。。。<strong>是书上印错了</strong>！！！给跪了。。Orz…</p>
+<ul>
+<li>The most commonly-used values of mode are ‘r’ for reading, ‘w’ for writing (truncating the file if it already exists), and ‘a’ for appending (which on some Unix systems means that all writes append to the end of the file regardless of the current seek position).</li>
+<li><p>Modes ‘r+’, ‘w+’ and ‘a+’ open the file for updating (reading and writing); note that ‘w+’ truncates the file.<br><a href="https://docs.python.org/2/library/functions.html?highlight=open#open" target="_blank" rel="external">英文文档出处</a></p>
+</li>
+<li><p>中文的意思是这样的：（我自己翻译的）+的作用是允许读和写。r的作用只是对已存在的文件，w的是创建新文件，如果不存在的话。所以还是有些区别的。<em>如果文件已存在</em>，那么可以认为是一样的。我不觉得有什么非要用+的情况，打开文件对象多的话没准就忘了。</p>
+</li>
+<li><p>说了这么多，还是总结一下吧</p>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#文件模式  </span></div><div class="line"><span class="comment">#a以追加模式打开，只能写  </span></div><div class="line"><span class="comment">#r+,w+,a+ 读写模式，区别如下  </span></div><div class="line"><span class="comment">#r+从最开始覆盖写（所以我的那种，读源文件的字符串，修改，重新写回文件的想法是不。。。。成立的？？？不对啊，不行，我还得去试一下，但是还是失败了，在写的时候会报错）  </span></div><div class="line"><span class="comment">#w+清除文件后写  </span></div><div class="line"><span class="comment">#a+从末尾追加</span></div></pre></td></tr></table></figure>
+
+<h3 id="f-read()">f.read()</h3>
+<p> 之前用它的时候发现，第一次调用f.tell()是空的，原因就在这儿，因为</p>
+<blockquote>
+<p>Python在读取一个文件时，会记住其在文件中的位置，如果第二次仍需要从头读取，则需要调用f.seek(0)重新从头开始读取。<br> 而且<br>f.tell() #返回文件操作标记的当前位置，以文件的开头为原点</p>
+</blockquote>
+<h3 id="文件读写最好的解决办法，写两个语句来获取读和写的权限。exp如下：">文件读写最好的解决办法，写两个语句来获取读和写的权限。exp如下：</h3>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> os</div><div class="line">o=open(<span class="string">'d:'</span>+os.sep+<span class="string">'statistic.txt'</span>,<span class="string">'r+'</span>)</div><div class="line">content2=o.read()</div><div class="line">content2+=<span class="string">'bbb'</span></div><div class="line"><span class="keyword">print</span> content2</div><div class="line">o.close()</div><div class="line"></div><div class="line">o2=open(<span class="string">'d:'</span>+os.sep+<span class="string">'statistic.txt'</span>,<span class="string">'w+'</span>)</div><div class="line">o2.write(content2)</div><div class="line">o2.close()</div></pre></td></tr></table></figure>
+
+<p>编译结果：<code>aaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+[Finished in 0.1s]</code></p>
+<h3 id="中文输出">中文输出</h3>
+<p>在运行一个和中文输出相关的程序时，会有<br><code>[Decode error - output not utf-8]</code><br>的报错，修改程序头，添加<br><code># -*- coding: gbk -*-</code>无效，utf-8无效，最终解决办法为：修改<code>C:\Users\Administrator\AppData\Roaming\Sublime Text 2\Packages\Python</code>目录下的<code>Python.sublime-build</code>文件</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">{</div><div class="line">     <span class="string">"cmd"</span>: [<span class="string">"C:/Python33/python.exe"</span>, <span class="string">"-u"</span>, <span class="string">"$file"</span>],</div><div class="line">     <span class="string">"file_regex"</span>: <span class="string">"^[ ]*File \"(...*?)\", line ([0-9]*)"</span>,</div><div class="line">     <span class="string">"selector"</span>: <span class="string">"source.python"</span></div><div class="line">     <span class="string">"encoding"</span>: <span class="string">"cp936"</span></div><div class="line">}</div></pre></td></tr></table></figure>
+
+<p>成功输出中文！</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://tejia.taobao.com/?spm=1.7275165.a214d7z.32"</span> <span class="attribute">data-spm</span>=<span class="value">"d1"</span> <span class="attribute">class</span>=<span class="value">""</span>&gt;</span>天天特价  <span class="tag">&lt;/<span class="title">a</span>&gt;</span>            </div><div class="line"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://try.taobao.com/?spm=1.7275165.a214d7z.33"</span> <span class="attribute">data-spm</span>=<span class="value">"d2"</span> <span class="attribute">class</span>=<span class="value">" c-2 "</span>&gt;</span>免费试用  <span class="tag">&lt;/<span class="title">a</span>&gt;</span>            </div><div class="line"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://qing.taobao.com/?spm=1.7275165.a214d7z.34"</span> <span class="attribute">data-spm</span>=<span class="value">"d3"</span> <span class="attribute">class</span>=<span class="value">" c-3 "</span>&gt;</span>清仓  <span class="tag">&lt;/<span class="title">a</span>&gt;</span>            </div><div class="line"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://qiang.taobao.com/?spm=1.7275165.a214d7z.35"</span> <span class="attribute">data-spm</span>=<span class="value">"d5"</span> <span class="attribute">class</span>=<span class="value">""</span>&gt;</span>一元起拍  <span class="tag">&lt;/<span class="title">a</span>&gt;</span>            </div><div class="line"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://taojinbi.taobao.com/?spm=1.7275165.a214d7z.36"</span> <span class="attribute">data-spm</span>=<span class="value">"d4"</span> <span class="attribute">class</span>=<span class="value">" c-2 "</span>&gt;</span>淘金币  <span class="tag">&lt;/<span class="title">a</span>&gt;</span>            </div><div class="line"> <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://ye.taobao.com/?spm=1.7275165.a214d7z.37"</span> <span class="attribute">data-spm</span>=<span class="value">"d6"</span> <span class="attribute">class</span>=<span class="value">" c-3 "</span>&gt;</span>夜抢购  <span class="tag">&lt;/<span class="title">a</span>&gt;</span></div></pre></td></tr></table></figure>
+
+<h3 id="Python_Web_开发学习实录">Python Web 开发学习实录</h3>
+<p>终于看完了<br><img src="/img/pythonweb.jpg" alt="pythonweb"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="文件读写">文件读写</h3>
+<p>昨天纠结了半天的文件读写问题，在论坛上问了大神以后发现。。。<strong>是书上印错了</strong>！！！给跪了。。Orz…</p>
+<ul>
+<li>The most commonly-used values of m]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[python语法（二）]]></title>
+    <link href="http://aliencegg.github.io/2014/10/21/python-2/"/>
+    <id>http://aliencegg.github.io/2014/10/21/python-2/</id>
+    <published>2014-10-21T02:46:25.000Z</published>
+    <updated>2014-10-21T05:43:15.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>如果要实现print函数不自动换行，在句末增加一个逗号，如：</li>
+</ul>
+<figure class="highlight python"><figcaption><span>for i in range(1,5):</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">print</span> i,</div></pre></td></tr></table></figure>
+
+<ul>
+<li>学会用join函数和split函数，一个针对结合的字符如：’\’，’/‘，另一个针对要划分的字符串还有一个split函数，在<a href="http://aliencegg.github.io/2014/10/16/python-grammar/s" target="_blank" rel="external">这里</a>已经提到过。</li>
+<li>不论是集合<code>{}</code>列表<code>[]</code>还是元组<code>()</code>应该注意在python中的对它的访问都要以中括号的形式<code>[]</code></li>
+<li>要打印输出很多个字符串时，可以使用，<code>python print &#39;hello %s,%s&#39;%(&#39;aa&#39;,&#39;bb&#39;)</code></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>如果要实现print函数不自动换行，在句末增加一个逗号，如：</li>
+</ul>
+<figure class="highlight python"><figcaption><span>for i in range(1,5):</span></figcaptio]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[python语法（一）]]></title>
+    <link href="http://aliencegg.github.io/2014/10/16/python-grammar/"/>
+    <id>http://aliencegg.github.io/2014/10/16/python-grammar/</id>
+    <published>2014-10-16T04:18:03.000Z</published>
+    <updated>2014-10-21T02:30:20.000Z</updated>
+    <content type="html"><![CDATA[<p>一段python的代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#coding=utf8</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">judgeyear</span><span class="params">(year)</span>:</span></div><div class="line">    <span class="comment">#weishenme</span></div><div class="line">    message=<span class="string">''</span></div><div class="line">    <span class="keyword">if</span> ((year%<span class="number">4</span>==<span class="number">0</span>)<span class="keyword">and</span> (year%<span class="number">100</span> !=<span class="number">0</span>) <span class="keyword">or</span> (year %<span class="number">400</span>==<span class="number">0</span>)):</div><div class="line">        message+=<span class="string">'yes'</span></div><div class="line">        <span class="keyword">print</span> message</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        message+=<span class="string">'no'</span></div><div class="line">        <span class="keyword">print</span> message</div><div class="line">judgeyear(<span class="number">2012</span>)</div></pre></td></tr></table></figure>
+
+<p>一个简单的判断闰年的函数</p>
+<ul>
+<li><p>（1）以r或R开头的python中的字符串表示（非转义的）原始字符串，r表示后面的字符串都是普通字符，右斜杠就是普通的字符，不代表转义</p>
+<ul>
+<li><code>f = open(r&#39;C:\Program Files\Adobe\Reader 9.0\Setup Files\setup.ini&#39;,&#39;r&#39;)
+for i in f:
+print i
+f.close()</code></li>
+</ul>
+</li>
+<li><p>（2）以u或U开头的字符串表示unicode字符串</p>
+<ul>
+<li>Python允许你处理Unicode文本——你只需要在字符串前加上前缀u或U。</li>
+<li><code>u&quot;This is a Unicode string.&quot;</code></li>
+</ul>
+</li>
+</ul>
+<p>一个生成随机数的函数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#coding=utf8</span></div><div class="line"><span class="keyword">from</span> random <span class="keyword">import</span> randint</div><div class="line">allNums = []</div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">100</span>):</div><div class="line">    allNums.append(randint(<span class="number">1000</span>,<span class="number">9999</span>))</div><div class="line"><span class="keyword">print</span> <span class="string">'偶数有'</span>+str(filter(<span class="keyword">lambda</span> n:n%<span class="number">2</span>==<span class="number">0</span>, allNums))</div><div class="line"><span class="keyword">print</span> <span class="string">'奇数有'</span>+str(filter(<span class="keyword">lambda</span> n:n%<span class="number">2</span>!=<span class="number">0</span>, allNums))</div></pre></td></tr></table></figure>
+
+<ul>
+<li>要说的是这个<code>lambda</code>函数，还有这个<code>filter</code>函数</li>
+<li>写的时候还发现，中文需要加入<code>#coding=utf8</code>中间不能有空格</li>
+<li><code>userlist.sort(reverse=1)</code>代表排序是升序还是降序</li>
+<li>Python主要有三种数据类型：字典、列表、元组。其分别由花括号，中括号，小括号表示。如：<ul>
+<li>字典：dic={‘a’:12,’b’:34}</li>
+<li>列表：list=[1,2,3,4]</li>
+<li>元组：tup=(1,2,3,4)</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">print</span> <span class="string">'userDir[%s]='</span>%key+str(value)</div><div class="line"><span class="keyword">print</span> <span class="string">'userDir[%s]='</span>%key,value</div></pre></td></tr></table></figure>
+
+<p>这两种表达是等价的</p>
+<ul>
+<li>函数<code>stringname.strip(&#39;say&#39;)</code>从字符串首尾开始删除出现在’s’,’a’,’y’的字符。<ul>
+<li>注：不会跳过空格</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>一段python的代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><di]]>
+    </summary>
+    
+      <category term="语法" scheme="http://aliencegg.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+      <category term="python" scheme="http://aliencegg.github.io/categories/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[So sorry about sublime text 3]]></title>
+    <link href="http://aliencegg.github.io/2014/10/15/sublime-text-3/"/>
+    <id>http://aliencegg.github.io/2014/10/15/sublime-text-3/</id>
+    <published>2014-10-15T08:16:12.000Z</published>
+    <updated>2014-10-15T09:28:27.000Z</updated>
+    <content type="html"><![CDATA[<p><em>写在前面</em>：好吧，因为旁边的老外和同学在<strong>疯狂秀口语</strong>，我只能用这个标题来发泄一下对他们蹩口语的不满。</p>
+<hr>
+<p>写了一天的python基本语法，发现python27自带的编辑器太丑了，没有语法提示，没有鲜艳的高亮，果断换上原来的sublimetext3，但是没想到3是一个beta版，不能用python的插件，所以在运行py文件的时候，如果不涉及到交互还好，一旦设计到交互，就不能用了，原解释引用如下:</p>
+<blockquote>
+<p>package control  安装<br>(仅适用于Sublime Text2 ，Text3中由于更新了python函数,无法安装，但是由于text3为测试版，插件也不是很多，等成熟以后更新)  </p>
+</blockquote>
+<h4 id="总结一下：">总结一下：</h4>
+<ul>
+<li>3通过改变环境变量以及改变python文件夹下的文件可以实现编译解释,但是不能交互<ul>
+<li>输入以下配置代码</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">{</div><div class="line"><span class="string">"cmd"</span>: [<span class="string">"python"</span>, <span class="string">"-u"</span>, <span class="string">"$file"</span>],</div><div class="line"><span class="string">"path"</span>:<span class="string">"C:/Python27"</span>,</div><div class="line"><span class="string">"file_regex"</span>: <span class="string">"^[ ]*File \"(...*?)\", line ([0-9]*)"</span>,</div><div class="line"><span class="string">"selector"</span>: <span class="string">"source.python"</span></div><div class="line">}</div></pre></td></tr></table></figure>
+
+<p>保存为<code>Python.sublime-build</code><br>保存到<code>C:\Users\Administrator\AppData\Roaming\Sublime Text 2\Packages\python\</code>(没有新建一个)</p>
+<ul>
+<li>2的话直接看<a href="http://blog.csdn.net/w6611415/article/details/7725566" target="_blank" rel="external">教程</a><ul>
+<li>如果是win8系统 在调用REPL模块进行交互的时候，可能有用户权限的错误 如下图<br><img src="/img/win8error.png" alt=""><br>解决办法：<blockquote>
+<p>打开：Settings -&gt; Package Settings -&gt; SublimeREPL -&gt; Settings - User 把下面的内容粘贴进去，保存后再Run current file试试。</p>
+<pre><code>{
+"<span class="attribute">default_extend_env</span>": <span class="value">{"<span class="attribute">PATH</span>": <span class="value"><span class="string">"{PATH};C:/Python27"</span></span>}
+</span>}  
+</code></pre></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><em>写在前面</em>：好吧，因为旁边的老外和同学在<strong>疯狂秀口语</strong>，我只能用这个标题来发泄一下对他们蹩口语的不满。</p>
+<hr>
+<p>写了一天的python基本语法，发现python27自带的编辑器太丑了，没有语法提示，没有鲜艳的高亮]]>
+    </summary>
+    
+      <category term="sublimetext3" scheme="http://aliencegg.github.io/categories/sublimetext3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[python]]></title>
+    <link href="http://aliencegg.github.io/2014/10/15/python/"/>
+    <id>http://aliencegg.github.io/2014/10/15/python/</id>
+    <published>2014-10-15T04:00:33.000Z</published>
+    <updated>2014-10-15T07:06:48.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>python是一只蟒蛇的意思</li>
+<li><img src="/img/pythonlogo2.jpg" alt="python"></li>
+<li><p>在python里，变量也是一个<strong>对象</strong>，也能调用del把它释放掉</p>
+</li>
+<li></li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># -*- coding: cp936 -*-</span></div><div class="line"><span class="comment">#hanshu</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">registerUser</span><span class="params">(username=<span class="string">'lll'</span>,password=<span class="string">'00'</span>)</span>:</span></div><div class="line">    <span class="comment">#提示用户</span></div><div class="line">    username=raw_input(<span class="string">"please input name中文啊 啊 "</span>)</div><div class="line">    <span class="keyword">if</span>(len(username)&gt;<span class="number">3</span> <span class="keyword">and</span> len ( username)&lt; <span class="number">20</span>):</div><div class="line">        password=raw_input(<span class="string">"please enter psw"</span>)</div><div class="line">        <span class="keyword">if</span>(password.isdigit()):</div><div class="line">            <span class="keyword">print</span> <span class="string">"恭喜"</span>+username+password</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">print</span> <span class="string">'失败'</span>+username+password</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">print</span> <span class="string">'长度不对'</span>+username+password</div><div class="line">registerUser()</div></pre></td></tr></table></figure>
+
+<ul>
+<li>函数调用问题</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">a</span><span class="params">(x)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">b</span><span class="params">(y)</span>:</span></div><div class="line">        <span class="keyword">return</span> x+y</div><div class="line">    <span class="keyword">return</span> b</div><div class="line"></div><div class="line"><span class="keyword">print</span> a(<span class="number">1</span>)</div></pre></td></tr></table></figure>
+
+<p>调用<strong>a(1)</strong>返回<function b="" at="" 0x0000000002c7b9e8=""><br>调用<strong>a(1)(2)</strong>返回3</function></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>python是一只蟒蛇的意思</li>
+<li><img src="/img/pythonlogo2.jpg" alt="python"></li>
+<li><p>在python里，变量也是一个<strong>对象</strong>，也能调用del把它释放掉</]]>
+    </summary>
+    
+      <category term="python" scheme="http://aliencegg.github.io/categories/python/"/>
+    
+  </entry>
+  
+</feed>
