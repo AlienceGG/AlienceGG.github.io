@@ -1,0 +1,416 @@
+
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+    <title>startgoagent | AlienceGG&#39;s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="AlienceGG">
+    
+    <meta name="description" content="【CentOS】goagent后台开机启动问题描述：
+goagent后台开机启动
+
+问题解决：
+在 /etc/rc.d/rc.local文件中添加goagent开机启动命令：参数含义详解：
+nohup是让一个进程在后台运行的命令，因为Goagent产生大量输出，我们将这些输出重定向到一个并不存在的空">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="AlienceGG&#39;s Blog" title="AlienceGG&#39;s Blog"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="AlienceGG&#39;s Blog">AlienceGG&#39;s Blog</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/tags">Tags</a></li>
+					
+						<li><a href="/categories">Categories</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:aliencegg.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/03/25/startgoagent/" title="startgoagent" itemprop="url">startgoagent</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://aliencegg.github.io" title="AlienceGG">AlienceGG</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2015-03-25T01:42:46.000Z" itemprop="datePublished">2015-03-25</time>
+    Updated:<time datetime="2015-03-27T08:02:34.000Z" itemprop="dateModified">2015-03-27</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#【CentOS】goagent后台开机启动"><span class="toc-number">1.</span> <span class="toc-text">【CentOS】goagent后台开机启动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#问题描述："><span class="toc-number">1.1.</span> <span class="toc-text">问题描述：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#问题解决："><span class="toc-number">1.2.</span> <span class="toc-text">问题解决：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参数含义详解："><span class="toc-number">1.3.</span> <span class="toc-text">参数含义详解：</span></a></li></ol></li></ol>
+		</div>
+		
+		<h2 id="【CentOS】goagent后台开机启动"><a href="#【CentOS】goagent后台开机启动" class="headerlink" title="【CentOS】goagent后台开机启动"></a>【CentOS】goagent后台开机启动</h2><h3 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h3><ul>
+<li>goagent后台开机启动</li>
+</ul>
+<h3 id="问题解决："><a href="#问题解决：" class="headerlink" title="问题解决："></a>问题解决：</h3><ul>
+<li>在 /etc/rc.d/rc.local文件中添加goagent开机启动命令：<br><img src="/img/startgoagent1.jpg" alt="start"><h3 id="参数含义详解："><a href="#参数含义详解：" class="headerlink" title="参数含义详解："></a>参数含义详解：</h3></li>
+<li>nohup是让一个进程在后台运行的命令，因为Goagent产生大量输出，我们将这些输出重定向到一个并不存在的空设备。</li>
+</ul>
+<ol>
+<li><strong>&gt;/dev/null</strong><br>大家知 “&gt;”（右尖括号） 在unix/linux shell 中表示 输入到 的意思，就是把”&gt;”左边的内容输入到”&gt;”右边。<br>比如：echo text&gt;1.txt 就把“text”这个文本输入到1.txt这个文件中。<br>那么 “/dev/null” 又是个什么东东呢？它代表一个空设备，即不存在的设备。也就是说，抛弃”&gt;”左边的内容，不进行输出。</li>
+<li><strong>2&gt;&amp;1</strong><br>这个其实是三个部分组成的：2， &gt;&amp;， 1 。我们先来搞清楚这里的2和1是什么意思。在/usr/include/unistd.h中，你可以找到如下代码。<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STDIN_FILENO    0   </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STDOUT_FILENO   1   </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STDERR_FILENO   2</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>这是三种不同的流。</p>
+<ul>
+<li>2代表stderr.</li>
+<li>1代表sdtout.</li>
+</ul>
+<p>而 &amp;&gt; 则表示把符号左边的内容以符号右边的形式输出。</p>
+<p>2&amp;&gt;1 就是把，把stderr做为stdout输出。</p>
+<p>现在我们结合这两个部分来看。2&amp;&gt;1定义了把stderr做为标准的stdout流输出，然后stdout的内容全部写入/dev/null，也就是说被舍弃掉。</p>
+<p>结论就是，无论执行的是什么命令，哪怕运行中出现了error都不会有回显。</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://aliencegg.github.io/2015/03/25/startgoagent/" data-title="startgoagent | AlienceGG&#39;s Blog" data-tsina="aliencegg" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2015/07/08/server-intern-2015/" title="server-intern-2015">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  server-intern-2015</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2015/03/13/bupt-vpn/"  title="bupt vpn">
+ <strong>NEXT:</strong><br/> 
+ <span>bupt vpn
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section class="comment">
+<!-- 多说评论框 start -->
+  <div class="ds-thread" data-category="$cat[catid]" data-title="$article[title]" data-author-key="$article[uid]"></div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"aliencegg"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+
+
+ <nav id="pagination" >
+    
+    <a href="/2015/07/08/server-intern-2015/" class="alignleft prev" >Prev</a>
+    
+    
+    <a href="/2015/03/13/bupt-vpn/" class="alignright next" >Next</a>
+    
+    <div class="clearfix"></div>
+</nav>
+
+
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#【CentOS】goagent后台开机启动"><span class="toc-number">1.</span> <span class="toc-text">【CentOS】goagent后台开机启动</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#问题描述："><span class="toc-number">1.1.</span> <span class="toc-text">问题描述：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#问题解决："><span class="toc-number">1.2.</span> <span class="toc-text">问题解决：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参数含义详解："><span class="toc-number">1.3.</span> <span class="toc-text">参数含义详解：</span></a></li></ol></li></ol>
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+			<li><a href="/categories/c翻墙/" title="c翻墙">c翻墙<sup>1</sup></a></li>
+		
+			<li><a href="/categories/hexo/" title="hexo">hexo<sup>6</sup></a></li>
+		
+			<li><a href="/categories/linux/" title="linux">linux<sup>1</sup></a></li>
+		
+			<li><a href="/categories/python/" title="python">python<sup>2</sup></a></li>
+		
+			<li><a href="/categories/sublimetext3/" title="sublimetext3">sublimetext3<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">Tags</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/linux/" title="linux">linux<sup>3</sup></a></li>
+		
+			<li><a href="/tags/mysql/" title="mysql">mysql<sup>1</sup></a></li>
+		
+			<li><a href="/tags/theme/" title="theme">theme<sup>1</sup></a></li>
+		
+			<li><a href="/tags/t翻墙/" title="t翻墙">t翻墙<sup>1</sup></a></li>
+		
+			<li><a href="/tags/vpn/" title="vpn">vpn<sup>1</sup></a></li>
+		
+			<li><a href="/tags/乱码/" title="乱码">乱码<sup>1</sup></a></li>
+		
+			<li><a href="/tags/结束/" title="结束">结束<sup>3</sup></a></li>
+		
+			<li><a href="/tags/语法/" title="语法">语法<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">Links</p>
+    <ul>
+      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
+      <li><a href="http://hexo.io" target="_blank" title="Hexo">Hexo</a></li>
+      <li><a href="http://wuchong.me" target="_blank" title="WuChong">Jark's Blog</a></li>
+    </ul>
+</div>
+
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=3192103483&verifier=b663b3be&dpc=1"></iframe>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	
+	<section class="info">
+		<p> Hello , I&#39;m Lien. <br/>
+			This is my blog , believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/aliencegg" target="_blank" title="weibo"></a>
+		
+		
+		
+		<a href="https://github.com/AlienceGG" target="_blank" title="github"></a>
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2016 
+		
+		<a href="http://aliencegg.github.io" target="_blank" title="AlienceGG">AlienceGG</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"aliencegg"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+  </body>
+</html>
+
+
+<a href="https://github.com/aliencegg"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
